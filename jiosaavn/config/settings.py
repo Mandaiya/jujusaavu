@@ -1,8 +1,8 @@
 from os import getenv
 
-API_ID = getenv("26267563")
-API_HASH = getenv("6665b1e3a30bb824973bf1b8b1603bb9")
-BOT_TOKEN = getenv("6381141611:AAGJM15_TQAQg6YezcPswigPukDJf1Czfyg")
+API_ID = getenv("API_ID", "26267563")
+API_HASH = getenv("API_HASH", "6665b1e3a30bb824973bf1b8b1603bb9")
+BOT_TOKEN = getenv("BOT_TOKEN", "6381141611:AAGJM15_TQAQg6YezcPswigPukDJf1Czfyg")
 BOT_COMMANDS = (
     ("start", "Initialize the bot and check its status"),
     ("settings", "Configure and manage bot settings"),
